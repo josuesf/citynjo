@@ -30,7 +30,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/josuesf/citynjoWeb.git"
+    "url": "git://github.com/josuesf/citynjo.git"
   },
   "author": "josuesf",
   "license": ""
