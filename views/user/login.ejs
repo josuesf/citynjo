@@ -1,0 +1,82 @@
+ <br/>
+
+<div class="materialContainer col s12 m7">
+
+  <form class="col s12" action="/login" method="POST">
+   <div class="box">
+
+      <div class="title">Iniciar Sesión</div>
+      <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" name="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+      </div>
+
+     <div class="row">
+        <div class="input-field col s12">
+        <input id="password" type="password" class="validate">
+        <label for="password" name="password">Password</label>
+        </div>
+     </div>
+      <input type="hidden" name="_csrf" value="<%= _csrf %>">
+      <div class="row">
+         <button type="submit" class="waves-effect waves-light btn-large right"><span>Iniciar</span></button>
+      </div>
+   </div>
+   </form>
+
+   <div class="overbox">
+      <div class="material-button alt-2 waves-effect waves-light red"><span class="shape"></span></div>
+      <form class="col s12" action="/signup" method="POST">
+        <div class="row">
+          <div class="title">REGISTRARSE</div>
+           <br/>
+          
+            <div class="row">
+            <div class="input">
+               <div class="input-field col s12">
+               <input type="text" name="name" id="name">
+               <label for="name" style="color:#fff">Nombre</label>
+               <span class="spin"></span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="input">
+               <div class="input-field col s12">
+               <input type="text" name="email" id="email">
+               <label for="email" style="color:#fff">Email</label>
+               <span class="spin"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input">
+              <div class="input-field col s12">
+              <input type="password" name="password" id="password">
+               <label for="password" style="color:#fff">Password</label>
+               <span class="spin"></span>
+              </div>
+            </div>
+          </div>
+     
+           <div class="row">
+            <div class="input">
+              <div class="input-field col s12">
+                <button type="submit" class="waves-effect waves-light btn-large right"><span>Aceptar</span></button>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="_csrf" value="<%= _csrf %>">
+
+          </div>
+        </div>
+      </form>
+
+   </div>
+
+</div> 

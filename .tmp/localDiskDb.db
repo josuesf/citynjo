@@ -1,0 +1,105 @@
+{
+  "data": {
+    "user": [
+      {
+        "regemail": "omar@gmail.com",
+        "regpass": "sassasaad",
+        "regrepass": "sfsfsdfd",
+        "id": 1,
+        "createdAt": "2017-10-15T16:21:10.067Z",
+        "updatedAt": "2017-10-15T16:21:10.067Z"
+      },
+      {
+        "regemail": "omar1@gmail.com",
+        "regpass": "98989",
+        "regrepass": "i9o0",
+        "id": 2,
+        "createdAt": "2017-10-15T16:22:17.839Z",
+        "updatedAt": "2017-10-15T16:22:17.839Z"
+      },
+      {
+        "regemail": "omar56@gmail.com",
+        "regpass": "asdsad",
+        "regrepass": "jkasjds",
+        "id": 3,
+        "createdAt": "2017-10-15T16:24:22.183Z",
+        "updatedAt": "2017-10-15T16:24:22.183Z"
+      },
+      {
+        "regemail": "omar78@gmail.com",
+        "regpass": "skjdfsdk",
+        "regrepass": "kjksjf",
+        "id": 4,
+        "createdAt": "2017-10-15T17:37:04.777Z",
+        "updatedAt": "2017-10-15T17:37:04.777Z"
+      },
+      {
+        "name": "omar",
+        "email": "dante48@gmail.com",
+        "password": "akdjakjdaksds",
+        "createdAt": "2017-10-15T18:40:26.152Z",
+        "updatedAt": "2017-10-15T18:40:26.152Z",
+        "id": 5
+      },
+      {
+        "name": "iditoa",
+        "email": "chancho2@gmail.com",
+        "password": "asdasd",
+        "createdAt": "2017-10-15T18:41:42.856Z",
+        "updatedAt": "2017-10-15T18:41:42.856Z",
+        "id": 6
+      },
+      {
+        "name": "omar",
+        "email": "sjhdskdjfsd@gmail.com",
+        "password": "ajsdaksjkasd",
+        "createdAt": "2017-10-15T18:56:31.354Z",
+        "updatedAt": "2017-10-15T18:56:31.354Z",
+        "id": 7
+      },
+      {
+        "name": "dante",
+        "email": "jade@gmail.com",
+        "password": "123",
+        "createdAt": "2017-10-15T18:57:10.111Z",
+        "updatedAt": "2017-10-15T18:57:10.111Z",
+        "id": 8
+      },
+      {
+        "name": "jade",
+        "email": "jade48@gmail.com",
+        "password": "123",
+        "createdAt": "2017-10-15T19:04:11.361Z",
+        "updatedAt": "2017-10-15T19:04:11.361Z",
+        "id": 9
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 9
+    }
+  }
+}
